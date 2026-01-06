@@ -1,52 +1,32 @@
-# 💎 CORE ENGINE — CRYSTAL GOVERNANCE (CANONICAL)
+# CRYSTAL — Lattice & Molecular Engine
 
-File: `verticals/crystal/CORE_CRYSTAL_ENGINE_GOVERNANCE.md`  
-Engine Key: **CRYSTAL**  
-Authority Level: Engine Governance (Binding)  
-Status: ✅ BINDING | ✅ NON-OPTIONAL  
+CRYSTAL computes lattice-scale physical behavior.
 
-## 1. Authority & Inheritance
+---
 
-CRYSTAL inherits CORE governance and registry contract.
+## Engine Role
 
-## 2. Scope
+**Engine Type:** TRUTH_ENGINE  
+**Domain:** Lattice & molecular resonance
 
-CRYSTAL models lattice/molecular behavior:
-- phonon modes and resonant shifts
-- frequency-dependent material response
-- piezoelectric charge indicators (where declared)
-- coupling parameters to EM/acoustic (declared only)
+---
 
-## 3. Non-Scope
+## What CRYSTAL Computes
 
-CRYSTAL may NOT:
-- claim medical outcomes
-- infer identity or cross-tenant data
-- bypass artifact sealing
+- resonant lattice modes
+- frequency shifts
+- piezoelectric indicators (if modeled)
 
-## 4. Determinism
+---
 
-Material libraries, constants, and models must be versioned and logged.
+## Prohibitions
 
-## 5. Required Artifacts
+CRYSTAL does NOT:
+- make biological or medical claims
+- publish independently
 
-- `ENGINE_MANIFEST.json`
-- `RUN_CONDITIONS.json`
-- `SHA256SUMS.txt`
-- `LATTICE_MODES.json`
-- `FREQUENCY_SHIFTS.json`
-- `PIEZOELECTRIC_REPORT.json` (if computed)
-- `MATERIAL_RESPONSE.json`
-- `ARTIFACT_INDEX.json`
+---
 
-## 6. Safety & Misuse Controls
+## Governance
 
-Outputs must label limitations and uncertainty.
-
-## 7. Publishing Rules
-
-Sealed run required.
-
-## 8. Amendments
-
-Governance review required.
+CRYSTAL is governed by CORE law.
